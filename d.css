@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family:Arial;
+  background-image: url("choose.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+h5{
+  color:teal;
+  font-size:18px;
+  font-family: cursive;
+}
+h3{
+  color: navy;
+  font-family:cursive;
+}
+h4{
+  color: maroon;
+  font-family: Edwardian Script ITC;
+  font-size:60px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  user-select: none;
+  border-radius: 250px 20px  250px 50px;
+
+}
+.cards{
+  width: 20%;
+  background:linear-gradient(135deg,indianred,khaki);
+  border-radius: 5px;
+  margin: 25px;
+  box-shadow:2px 2px 30px black;
+  display: inline-block;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius:30px;
+}
+.cards:hover{
+  box-shadow:3px 3px 50px red;
+  transform: scale(0.99);
+  cursor: pointer;
+}
+.image img{
+  width:100%;
+  cursor: pointer;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius:50px;
+}
+.image img:hover{
+transform: scale(1.2);
+}
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.des{
+  text-align: center;
+  padding: 4px;
+
+}
+button{
+  margin-top: 30px;
+margin-bottom: 30px;
+background-color: aqua;
+border: 1px solid black;
+padding: 8px;
+border-radius: 5px;
+}
+button:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+  transform: scale(0.95);
+
+}
